@@ -8,6 +8,7 @@
 
 #import "CropImageController.h"
 #import "CropperView.h"
+#import "CommonUtil.h"
 static CGFloat const BottomViewHeight = 50.0;
 @interface CropImageController ()
 @property (nonatomic, strong)UIImageView *imageView;
@@ -53,7 +54,7 @@ static CGFloat const BottomViewHeight = 50.0;
 //    self.imageCropperView.contentSize = CGSizeMake(width, height);
 //    [self.view addSubview:_imageCropperView];
     
-    UIView *bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, screenHeight - BottomViewHeight, screenWidth, BottomViewHeight)];
+    UIView *bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, screenHeight - BottomViewHeight - TabbarSafeBottomMargin, screenWidth, BottomViewHeight)];
     bottomView.backgroundColor = [UIColor whiteColor];
     bottomView.userInteractionEnabled = YES;
     

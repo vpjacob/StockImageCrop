@@ -38,6 +38,7 @@
 		AC8E8DC22261BCB10089B7E9 /* CropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropperViewController.h; sourceTree = "<group>"; };
 		AC8E8DC32261BCB10089B7E9 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
 		AC8E8DC42261BCB10089B7E9 /* CropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropperView.m; sourceTree = "<group>"; };
+		CBD7D0DB2271507900423C4B /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 		AC7F83132255BFC4004D0F70 /* StockImageCrop */ = {
 			isa = PBXGroup;
 			children = (
+				CBD7D0D922714F2800423C4B /* Util */,
 				AC7F83142255BFC4004D0F70 /* AppDelegate.h */,
 				AC7F83152255BFC4004D0F70 /* AppDelegate.m */,
 				AC7F83172255BFC4004D0F70 /* ViewController.h */,
@@ -97,6 +99,14 @@
 				AC8E8DC12261BCB10089B7E9 /* OverlayView.m */,
 			);
 			path = ImageCropper;
+			sourceTree = "<group>";
+		};
+		CBD7D0D922714F2800423C4B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7D0DB2271507900423C4B /* CommonUtil.h */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3U3MVJRJ67;
+				DEVELOPMENT_TEAM = 4X8X783E56;
 				INFOPLIST_FILE = StockImageCrop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3U3MVJRJ67;
+				DEVELOPMENT_TEAM = 4X8X783E56;
 				INFOPLIST_FILE = StockImageCrop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
